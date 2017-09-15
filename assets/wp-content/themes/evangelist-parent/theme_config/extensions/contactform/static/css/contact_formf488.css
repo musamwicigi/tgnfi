@@ -1,0 +1,86 @@
+.tfuse_captcha_reload{
+    background-image:url(../images/reload.png) !important;
+    background-repeat: no-repeat !important;
+    height: 18px !important;
+    margin-top: 15px !important;
+    max-width: 16px !important;
+    vertical-align: top;
+    background-color: transparent !important;
+    border:none !important;
+    padding-left: 18px !important;
+}
+/* preview  */
+#TB_ajaxContent .contact_form .field_text input,#TB_ajaxContent .contact_form .text_area textarea {
+box-shadow: none !important;
+border: 0;
+border-top: 1px solid #e4e3e2;
+border-left: 1px solid #e4e3e2;
+height: 27px;
+border-radius: 2px;
+width: 205px;
+height:36px;
+}
+
+#TB_ajaxContent .contact_form .field_text input {
+height:36px;
+}
+#TB_ajaxContent .contact_form .text_area textarea {
+height:156px;
+}
+
+#TB_ajaxContent label {
+display: block;
+margin-bottom: 5px;
+}
+
+#TB_ajaxContent .contact_form .field_text{
+margin-right: 42px;
+}
+
+#TB_ajaxContent .contact_form .field_select{
+margin-right: 82px;
+}
+
+#TB_ajaxContent .contact_form .input_styled {
+margin-right: 82px;
+}
+
+#TB_ajaxContent .contact_form .rowSubmit input {
+font-family: 'Merriweather', serif;
+font-size: 11px;
+margin-top: 20px;
+margin-left: 185px;
+}
+
+#TB_ajaxContent .rowSubmit .button {
+display: inline-block;
+font-size: 13px;
+font-family: "Cabin" ,sans-serif;
+font-weight: 600;
+text-align: center;
+color: #fff !important;
+min-width: 103px;
+padding: 0 20px;
+height: 31px;
+line-height: 31px;
+background: #f36028;
+background: -moz-linear-gradient(top, #f36028 0%, #f04e1c 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f36028), color-stop(100%,#f04e1c));
+background: -webkit-linear-gradient(top, #f36028 0%,#f04e1c 100%);
+background: -o-linear-gradient(top, #f36028 0%,#f04e1c 100%);
+background: -ms-linear-gradient(top, #f36028 0%,#f04e1c 100%);
+background: linear-gradient(to bottom, #f36028 0%,#f04e1c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f36028', endColorstr='#f04e1c',GradientType=0 );
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+box-shadow: inset 0 1px 0 #f67b43 , 1px 2px 2px -1px rgba(154,125,108,.59);
+-moz-box-shadow: inset 0 1px 0 #f67b43 , 1px 2px 2px -1px rgba(154,125,108,.59);
+-webkit-box-shadow: inset 0 1px 0 #f67b43 , 1px 2px 2px -1px rgba(154,125,108,.59);
+text-transform: uppercase;
+border-top: 1px solid #dc683c;
+border-left: 1px solid #ca4e2a;
+border-right: 1px solid #ca4e2a;
+border-bottom: 1px solid #d74e25;
+text-shadow: 0 1px 0 rgba(0,0,0,.2);
+}

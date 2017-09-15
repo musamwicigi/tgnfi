@@ -1,0 +1,34 @@
+.syntaxhighlighter{background-color:#fff !important;padding:20px 0 !important;width:99.9% !important;border:1px solid #e9e9e9 !important;margin-top:15px !important;margin-bottom:50px !important;}
+.syntaxhighlighter .toolbar .item.about{display:none !important;}
+.syntaxhighlighter .line.highlighted .number{color:black !important;}
+.syntaxhighlighter .line.highlighted.alt1,
+.syntaxhighlighter .line.highlighted.alt2{background-color:#e0e0e0 !important;}
+.syntaxhighlighter .line .number{color:#afafaf !important;}
+.syntaxhighlighter .lines{min-height:20px !important;padding:0 15px !important;}
+.syntaxhighlighter .line .content{border-left:3px solid #6CE26C !important;color:#b7bcc2 !important;font-size:12px !important;}
+.syntaxhighlighter.printing .line .content{border:0 !important;}
+.syntaxhighlighter .line.alt1{}
+.syntaxhighlighter .line.alt2{}
+.footer .syntaxhighlighter .line.alt1, .footer .syntaxhighlighter .line.alt2{background-color:#383d3e !important;}
+.syntaxhighlighter .toolbar{background-color:#F8F8F8 !important;border-left:#dcdcdc solid 1px !important;border-bottom:#dcdcdc solid 1px !important;padding:1px;}
+.syntaxhighlighter .toolbar a{color:#a0a0a0 !important;}
+.syntaxhighlighter .toolbar a:hover{color:red !important;}
+.syntaxhighlighter .plain,
+.syntaxhighlighter .plain a{color:#d64100 !important;line-height:1.5em !important;font-family:'PT Serif Caption', serif !important;font-size:13px !important;font-style:italic !important;}
+.syntaxhighlighter .comments,
+.syntaxhighlighter .comments a{color:#008200 !important;}
+.syntaxhighlighter .string,
+.syntaxhighlighter .string a{color:blue !important;}
+.syntaxhighlighter .keyword{color:#069 !important;font-weight:bold !important;}
+.syntaxhighlighter .preprocessor{color:gray !important;}
+.syntaxhighlighter .variable{color:#a70 !important;}
+.syntaxhighlighter .value{color:#090 !important;}
+.syntaxhighlighter .functions{color:#ff1493 !important;}
+.syntaxhighlighter .constants{color:#0066CC !important;}
+.syntaxhighlighter .script{background-color:yellow !important;}
+.syntaxhighlighter .color1,
+.syntaxhighlighter .color1 a{color:#808080 !important;}
+.syntaxhighlighter .color2,
+.syntaxhighlighter .color2 a{color:#ff1493 !important;}
+.syntaxhighlighter .color3,
+.syntaxhighlighter .color3 a{color:red !important;}
