@@ -75,12 +75,13 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'tgnfico',
+    'hostname' => 'localhost',
+	'username' => 'tgnfico_moses',
+	'password' => 'Peter@2017',
+	'database' => 'tgnfico_db1',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
+
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,

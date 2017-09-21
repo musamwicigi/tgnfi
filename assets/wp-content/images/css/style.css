@@ -926,11 +926,11 @@ ul.children{background:transparent url(images/icons/comment_arrow.png) no-repeat
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container{width:758px;margin:0 auto;}
-.row{margin-left:25px;*zoom:1;}
+.row{margin-left:-35px;*zoom:1;}
 .row:before,
 .row:after{display:table;line-height:0;content:"";}
 .row:after{clear:both;}
-[class*="span"]{float:left;min-height:1px;margin-left:13px;}
+[class*="span"]{float:left;min-height:1px;margin-left:35px;}
 .span1{width:31px;}
 .span2{width:97px;}
 .span3{width:163px;}

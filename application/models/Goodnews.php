@@ -185,6 +185,11 @@ class Goodnews extends CI_Model{
                 $query = $this->db->get('sermon', 1);
                 return $query->result();
             }
+            public function blog1(){        
+                $this->db->order_by("no","desc");
+                $query = $this->db->get('blog', 1);
+                return $query->result();
+            }
 
 
          public function get_sermon($sermon_id){

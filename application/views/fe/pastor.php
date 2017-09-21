@@ -1,6 +1,6 @@
              </div>   
             </div>     
-                <div class="header_bottom medium">
+                <div class="header_bottom medium" style="text-align: center;">
                     <div class="container">
                     <div class="breadcrumbs"><a href="<?php echo base_url();?>home">Homepage </a>
                     
@@ -21,7 +21,7 @@
                             <h1>Welcome to our Church</h1>
                                 <div class="post_img">
                                     <span style="display:none"></span><a href="assets/wp-content/images/pastorsdesk/mwicigi.png" rel="prettyPhoto[gallery239]">
-                                    <img src="<?php echo base_url();?>assets/wp-content/images/home/youth3.jpg"  class=" alignleft" alt="New Prayer Books &#038; Materials Available in our Library" width="610" height="319" /></a>
+                                    <img src="<?php echo base_url();?>assets/wp-content/images/home/youth3.jpg"  class=" alignleft" alt="New Prayer Books &#038; Materials Available in our Library" width="100%" height="80%" /></a>
                                 </div> 
                             <div class="post_desc clearfix">
                                     <p><span style="font-size: 14px; color: #020202;font-weight: bolder;">Welcome to The Good News Fellowship International (TGNFI) church website. </span></p>

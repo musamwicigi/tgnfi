@@ -1,38 +1,27 @@
-</div>
-</div>
-<div id="middle">
- 
-    <div class="container">
-            <div class="row">
-                <div class="content span11">
-                    <?php foreach ($blog as $row):?>
-                        <article class="post-details">
-                            <div class="entry">
-                                <div class="post_list">
-                                    <div class="post_item clearfix">
-                                        <div class="post_title">
-                                            <h2><a href="<?php echo base_url();?>blog/article/<?php echo $row->blog_id;?>"><?php echo $row->blog_title;?></a></h2>
-                                        </div>
-                                        <div class="post_meta_top">
-                                            <span>Posted on </span>
-                                            <span class="post_date"><?php echo $row->blog_date;?></span>
-                                            <p><?php echo $row->blog_author;?></p>
-                                        </div>
-                                        <div class="post_img">
-                                            <img src="<?php echo base_url();?><?php echo $row->blog_image;?>"  class=" alignleft" alt="<?php echo $row->blog_title;?>" width="270" height="150" /> 
-                                        </div>
-                                        <div class="post_desc clearfix">
-                                            <p style="text-align: justify;"><?php echo word_limiter($row->blog_content);?></p>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    <?php endforeach?>
                 </div>
+                    </div>
+                    <div style="padding: 15px"></div>
+                        <div id="middle">
+                            <div class="row">
+                                    <div class="span11">
+                                     <?php foreach ($blog as $row):?>
+                                            <div class="span5">   
+                                            <h3><a href="<?php echo base_url();?>blog/article/<?php echo $row->blog_id;?>"><?php echo $row->blog_title;?></a></h3>
+                                            <div class="post_meta_top">
+                                            <span>Posted on </span>
+                                            <span class="post_date"><?php echo $row->blog_date;?></span> | 
+                                            <span class="post_date"> Authored By: </span><?php echo $row->blog_author;?>
+                                            </div>
+                                            <a href="<?php echo base_url();?>blog/article/<?php echo $row->blog_id;?>"><img src="<?php echo base_url();?>images/<?php echo $row->blog_image;?>"  class=" alignleft" alt="<?php echo $row->blog_title;?>"/></a> 
+                                            <p style="text-align: justify;"><?php echo character_limiter($row->blog_content,275);?><a href="<?php echo base_url();?>firstlady"> Read More</a></p>
+                                               <hr/>
+                                             </div>
+                                             <?php endforeach?>
+                                        </div>
+                                   
 
-                <div class="sidebar span4" style="padding-top: 30px">
+                <div class="span4">
+                    <h2> Read our Articles </h2>
                     <div class="widget_container widget_categories">                        
                                 <?php foreach ($list_articles as $row):?>       
                                     <ul>

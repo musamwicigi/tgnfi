@@ -11,6 +11,7 @@ class Home extends CI_Controller {
 		$data['welcome_today']=$this->goodnews->welcome_today();
 		$data['sermon']=$this->goodnews->sermon();
 		$data['sermon1']=$this->goodnews->sermon1();
+		$data['blog1']=$this->goodnews->blog1();
 		$data['list_article_10']=$this->goodnews->list_article_10();
 		$data['list_sermon']=$this->goodnews->list_sermon_10();
 		$data['weekly_announcements1']=$this->goodnews->weekly_announcements1();

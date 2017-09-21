@@ -1,35 +1,24 @@
-</div>
-</div>
-<div id="middle"> 
-    <div class="container">
-            <div class="row">
-                <div class="content span11">
-                    <?php foreach ($sermon as $row):?>
-                        <article class="post-details">
-                            <div class="entry">
-                                <div class="post_list">
-                                    <div class="post_item clearfix">
-                                        <div class="post_title">
-                                            <h2><a href="<?php echo base_url();?>sermon/sermonarticle/<?php echo $row->sermon_id;?>"><?php echo $row->sermon_title;?></a></h2>
+                 </div>
+                    </div>
+                    <div style="padding: 15px"></div>
+                        <div id="middle">
+                            <div class="row">
+                                    <div class="span11">
+                                     <?php foreach ($sermon as $row):?>
+                                            <div class="span5">   
+                                            <h3><a href="<?php echo base_url();?>sermon/sermonarticle/<?php echo $row->sermon_id;?>"><?php echo $row->sermon_title;?></a></h3>
+                                            <div class="post_meta_top">
+                                            <span>Date:</span>
+                                            <span class="post_date"><?php echo $row->sermon_date;?></span> | 
+                                            <span class="post_date"> Authored By: </span><?php echo $row->sermon_author;?>
+                                            </div>
+                                            <a href="<?php echo base_url();?>sermon/sermonarticle/<?php echo $row->sermon_id;?>"><img src="<?php echo base_url();?>images/<?php echo $row->sermon_image;?>" width="100%" alt="<?php echo $row->sermon_title;?>"/></a> 
+                                            <p style="text-align: justify;"><?php echo character_limiter($row->sermon_content,300);?><a href="<?php echo base_url();?>firstlady"> Read More</a></p>
+                                               <hr/>
+                                             </div>
+                                             <?php endforeach?>
                                         </div>
-                                        <div class="post_meta_top">
-                                            <span>Posted on </span>
-                                            <span class="post_date"><?php echo $row->sermon_date;?></span>
-                                            <p><?php echo $row->sermon_author;?></p>
-                                        </div>
-                                        <div class="post_img">
-                                            <img src="<?php echo base_url();?><?php echo $row->sermon_image;?>"  class=" alignleft" alt="<?php echo $row->sermon_title;?>" width="270" height="150" /> 
-                                        </div>
-                                        <div class="post_desc clearfix">
-                                            <p style="text-align: justify;"><?php echo word_limiter($row->sermon_content);?></p>
-                                        </div>
-                                        <div class="clear"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    <?php endforeach?>
-                </div>
+                                   
 
                 <div class="sidebar span4" style="padding-top: 30px">
                  <h2>More Sermons</h2>
