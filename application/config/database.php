@@ -76,12 +76,11 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
     'hostname' => 'localhost',
-	'username' => 'tgnfico_moses',
-	'password' => 'Peter@2017',
-	'database' => 'tgnfico_db1',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'tgnfi',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
-
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,

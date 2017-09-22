@@ -801,7 +801,7 @@ a.more-link{color:#d64100;font-weight:bold;}
 .container,
 .navbar-static-top .container,
 .navbar-fixed-top .container,
-.navbar-fixed-bottom .container{width:300px;margin:0 auto;}
+.navbar-fixed-bottom .container{width:350px;margin:0 auto;}
 .row{margin-left:0;*zoom:1;}
 .row:before,
 .row:after{display:table;line-height:0;content:"";}

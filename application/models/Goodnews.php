@@ -146,6 +146,19 @@ class Goodnews extends CI_Model{
                 return $query->result();
 
         }  
+         public function event()
+        {
+                $this->db->order_by("no","desc");
+                $query = $this->db->get('event', 5);
+                return $query->result();
+            }
+            
+        public function get_event($event_id){
+            $this->db->from('event');
+            $this->db->where(array('event_id'=>$event_id));
+            return $this->db->get()->result();
+         }
+
 
         public function blog()
         {

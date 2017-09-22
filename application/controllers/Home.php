@@ -19,10 +19,7 @@ class Home extends CI_Controller {
 	}
 	public function events(){
 		$data['main_content'] = 'fe/event';
-		$data['welcome_today']=$this->goodnews->welcome_today();
-		$data['sermon1']=$this->goodnews->sermon1();
-		$data['list_article_10']=$this->goodnews->list_article_10();
-		$data['list_sermon']=$this->goodnews->list_sermon_10();
+		$data['event']=$this->goodnews->event();
 		$this->load->view('fe/includes/template',$data);
 	}
 	public function about_us(){
@@ -123,6 +120,12 @@ class Home extends CI_Controller {
 		$data['main_content'] = 'fe/department/sermon_article';
 		$data['sermon']=$this->goodnews->get_sermon($no);
 		$data['list_sermon']=$this->goodnews->list_sermon_10();
+		$this->load->view('fe/includes/template',$data);
+	}
+	public function our_event($no){
+		$data['main_content'] = 'fe/our_event';
+		$data['our_event']=$this->goodnews->get_event($no);
+		$data['event']=$this->goodnews->event();
 		$this->load->view('fe/includes/template',$data);
 	}
 

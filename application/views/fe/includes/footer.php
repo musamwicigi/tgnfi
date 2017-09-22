@@ -1,6 +1,6 @@
 
                 <footer>
-                    <div class="container">
+                    <div class="container" style="text-align: center">
                         <div class="footer_row">
                             <ul class="footer_nav">
                                 <li><a href="<?php echo base_url();?>home">Home</a></li>
